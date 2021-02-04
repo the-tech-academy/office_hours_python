@@ -1,7 +1,11 @@
 title = "Office Hour"
 print(title)
 
+<<<<<<< Updated upstream
 message = "Office hour are from 9:00 am to 9:00 pm."
+=======
+message = "Office hour are from 9:00 am to 9:00 pm!"
+>>>>>>> Stashed changes
 print(message)
 
 portlandTime = 8
