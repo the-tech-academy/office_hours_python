@@ -1,0 +1,4 @@
+t = 'what is your favorite horror movie?'
+m = 'the thing'
+print(t)
+print(m)
