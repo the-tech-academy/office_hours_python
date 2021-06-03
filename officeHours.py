@@ -1,12 +1,13 @@
 title = "Office Hour"
 print(title)
 
-message = "Office hour are from 9:00 am to 9:00 pm."
+message = "Office Hours are from 9:00 am to 9:00 pm."
 print(message)
 
 portlandTime = 8
 newYorkTime = 3
 londontime = 5
+
 
 def portlandBranch():
     if portlandTime == 1:
@@ -36,6 +37,7 @@ def portlandBranch():
     else:
         print("An error has occured")
 
+
 def newYorkBranch():
     if newYorkTime == 1:
         print("The New York branch is closed")
@@ -64,6 +66,7 @@ def newYorkBranch():
     else:
         print("An error has occured")
 
+
 def londonBranch():
     if londontime == 1:
         print("The London branch is closed")
@@ -88,9 +91,10 @@ def londonBranch():
     elif londontime == 11:
         print("The London branch is closed")
     elif londontimee == 12:
-        print("The London branch is closed")        
+        print("The London branch is closed")
     else:
         print("An error has occured")
+
 
 portlandBranch()
 newYorkBranch()
