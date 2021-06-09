@@ -9,7 +9,7 @@ class djangoClasses(models.Model):
     Title = models.CharField(max_length=60)
     Course_Number = models.IntegerField()
     Instructor_Name = models.CharField(max_length=60)
-    Duration = models.DecimalField()
+    Duration = models.DecimalField(max_digits=1000, decimal_place=3)
 
     objects = classManager()
 
