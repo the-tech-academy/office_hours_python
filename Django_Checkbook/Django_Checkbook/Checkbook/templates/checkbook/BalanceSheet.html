@@ -24,6 +24,7 @@
 					<th>Amount</th>
 					<th>Balance</th>
 				</tr>
+				{% for key, total in table_contents.items %}
 				<tr>
 					<td class="center">{{ key.date }}</td>
 					<td class="center">{{ key.type }}</td>
