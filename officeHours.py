@@ -1,4 +1,4 @@
-title = "Office Hour"
+title = "Office Hours"
 print(title)
 
 message = "Office Hours are from 9:00 am to 9:00 pm."
