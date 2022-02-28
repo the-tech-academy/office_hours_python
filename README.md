@@ -1,9 +1,15 @@
 # Office Hours Python Project
 
-## Table of Contents
 https://github.com/the-tech-academy/office_hours_python.git<dl>
  
-
+## Table of Contents
+ Introduction
+ 
+Introduction 
+## Introduction
+ 
+ ##Installation
+ 
   <dt>Project Description:</dt>
   <dd>This is the final drill for the Version Control Course.</dd>
 
