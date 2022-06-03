@@ -1,7 +1,7 @@
 title = "Office Hour"
 print(title)
 
-message = "Office Hours are from 9:00am to 9:00pm."
+message = "Office hours."
 print(message)
 
 portlandTime = 8
