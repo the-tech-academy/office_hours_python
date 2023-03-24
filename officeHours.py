@@ -1,5 +1,5 @@
 title = "Office Hour"
-print(title)
+print(title) 
 
 message = "Office hours are from 9:00 am to 9:00 pm."
 print(message)
