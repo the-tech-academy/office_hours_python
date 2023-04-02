@@ -88,7 +88,7 @@ def londonBranch():
     elif londontime == 11:
         print("The London branch is closed")
     elif londontimee == 12:
-        print("The London branch is closed")        
+        print("The London branch is closed")
     else:
         print("An error has occured")
 
