@@ -6,7 +6,7 @@ print(message)
 
 portlandTime = 8
 newYorkTime = 3
-londontime = 5
+londonTime = 5
 
 def portlandBranch():
     if portlandTime == 1:
@@ -34,7 +34,7 @@ def portlandBranch():
     elif portlandTime == 12:
         print("The Portland branch is closed")
     else:
-        print("An error has occured")
+        print("An error has occurred")
 
 def newYorkBranch():
     if newYorkTime == 1:
@@ -62,35 +62,35 @@ def newYorkBranch():
     elif newYorkTime == 12:
         print("The New York branch is closed")
     else:
-        print("An error has occured")
+        print("An error has occurred")
 
 def londonBranch():
-    if londontime == 1:
+    if londonTime == 1:
         print("The London branch is closed")
-    elif londontime == 2:
+    elif londonTime == 2:
         print("The London branch is closed")
-    elif londontime == 3:
+    elif londonTime == 3:
         print("The London branch is closed")
-    elif londontime == 4:
+    elif londonTime == 4:
         print("The London branch is closed")
-    elif londontime == 5:
+    elif londonTime == 5:
         print("The London branch is open")
-    elif londontime == 6:
+    elif londonTime == 6:
         print("The London branch is closed")
-    elif londontime == 7:
+    elif londonTime == 7:
         print("The London branch is closed")
-    elif londontime == 8:
+    elif londonTime == 8:
         print("The London branch is closed")
-    elif londontime == 9:
+    elif londonTime == 9:
         print("The London branch is closed")
-    elif londontime == 10:
+    elif londonTime == 10:
         print("The London branch is closed")
-    elif londontime == 11:
+    elif londonTime == 11:
         print("The London branch is closed")
-    elif londontimee == 12:
+    elif londonTime == 12:
         print("The London branch is closed")        
     else:
-        print("An error has occured")
+        print("An error has occurred")
 
 portlandBranch()
 newYorkBranch()
