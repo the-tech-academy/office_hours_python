@@ -4,94 +4,22 @@ print(title)
 message = "Office hour are from 9:00 am to 9:00 pm."
 print(message)
 
-portlandTime = 8
-newYorkTime = 3
-londontime = 5
+timezones = {
+    "Portland": {1: "closed", 2: "closed", 3: "closed", 4: "closed", 5: "closed", 
+                 6: "closed", 7: "closed", 8: "open", 9: "closed", 10: "closed", 
+                 11: "closed", 12: "closed"},
+    "New York": {1: "closed", 2: "closed", 3: "open", 4: "closed", 5: "closed", 
+                 6: "closed", 7: "closed", 8: "closed", 9: "closed", 10: "closed", 
+                 11: "closed", 12: "closed"},
+    "London":   {1: "closed", 2: "closed", 3: "closed", 4: "closed", 5: "open", 
+                 6: "closed", 7: "closed", 8: "closed", 9: "closed", 10: "closed", 
+                 11: "closed", 12: "closed"}
+}
 
-def portlandBranch():
-    if portlandTime == 1:
-        print("The Portland branch is closed")
-    elif portlandTime == 2:
-        print("The Portland branch is closed")
-    elif portlandTime == 3:
-        print("The Portland branch is closed")
-    elif portlandTime == 4:
-        print("The Portland branch is closed")
-    elif portlandTime == 5:
-        print("The Portland branch is closed")
-    elif portlandTime == 6:
-        print("The Portland branch is closed")
-    elif portlandTime == 7:
-        print("The Portland branch is closed")
-    elif portlandTime == 8:
-        print("The Portland branch is open")
-    elif portlandTime == 9:
-        print("The Portland branch is closed")
-    elif portlandTime == 10:
-        print("The Portland branch is closed")
-    elif portlandTime == 11:
-        print("The Portland branch is closed")
-    elif portlandTime == 12:
-        print("The Portland branch is closed")
-    else:
-        print("An error has occured")
+def checkBranch(city, timezone):
+    status = timezones[city][timezone]
+    print(f"The {city} branch is {status}")
 
-def newYorkBranch():
-    if newYorkTime == 1:
-        print("The New York branch is closed")
-    elif newYorkTime == 2:
-        print("The New York branch is closed")
-    elif newYorkTime == 3:
-        print("The New York branch is open")
-    elif newYorkTime == 4:
-        print("The New York branch is closed")
-    elif newYorkTime == 5:
-        print("The New York branch is closed")
-    elif newYorkTime == 6:
-        print("The New York branch is closed")
-    elif newYorkTime == 7:
-        print("The New York branch is closed")
-    elif newYorkTime == 8:
-        print("The New York branch is closed")
-    elif newYorkTime == 9:
-        print("The New York branch is closed")
-    elif newYorkTime == 10:
-        print("The New York branch is closed")
-    elif newYorkTime == 11:
-        print("The New York branch is closed")
-    elif newYorkTime == 12:
-        print("The New York branch is closed")
-    else:
-        print("An error has occured")
-
-def londonBranch():
-    if londontime == 1:
-        print("The London branch is closed")
-    elif londontime == 2:
-        print("The London branch is closed")
-    elif londontime == 3:
-        print("The London branch is closed")
-    elif londontime == 4:
-        print("The London branch is closed")
-    elif londontime == 5:
-        print("The London branch is open")
-    elif londontime == 6:
-        print("The London branch is closed")
-    elif londontime == 7:
-        print("The London branch is closed")
-    elif londontime == 8:
-        print("The London branch is closed")
-    elif londontime == 9:
-        print("The London branch is closed")
-    elif londontime == 10:
-        print("The London branch is closed")
-    elif londontime == 11:
-        print("The London branch is closed")
-    elif londontimee == 12:
-        print("The London branch is closed")        
-    else:
-        print("An error has occured")
-
-portlandBranch()
-newYorkBranch()
-londonBranch()
+checkBranch("Portland", 8)
+checkBranch("New York", 3)
+checkBranch("London", 5)
