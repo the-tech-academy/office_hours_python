@@ -1,2 +1,3 @@
-#Python Office Hours
+# Python Office Hours
+
 Introducing the Office Hours Manager: a Python project that simplifies the management of office hours across different time zones. Leveraging Python's versatility, this code provides a practical solution for streamlining scheduling complexities. By harnessing Python's capabilities, I developed an efficient system that eliminates conflicts and enhances productivity. Through this project, I discovered the power of Python in optimizing global workflows and facilitating seamless communication. Experience the convenience of centralized time management with this straightforward code, designed to bring efficiency and coordination to teams spread across the world.
