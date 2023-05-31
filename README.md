@@ -1,10 +1,2 @@
-https://github.com/the-tech-academy/office_hours_python.git<dl>
-  <dt>Project Name:</dt>
-  <dd>office_hours</dd>
-
-  <dt>Project Description:</dt>
-  <dd>This is the final drill for the Version Control Course.</dd>
-
-  <dt>Project Intentions:</dt>
-  <dd>This drill will demonstrate how developers may remotely collaborate together to complete a project.</dd>
-</dl>
+#Python Office Hours
+Introducing the Office Hours Manager: a Python project that simplifies the management of office hours across different time zones. Leveraging Python's versatility, this code provides a practical solution for streamlining scheduling complexities. By harnessing Python's capabilities, I developed an efficient system that eliminates conflicts and enhances productivity. Through this project, I discovered the power of Python in optimizing global workflows and facilitating seamless communication. Experience the convenience of centralized time management with this straightforward code, designed to bring efficiency and coordination to teams spread across the world.
