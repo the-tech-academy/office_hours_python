@@ -1,40 +1,42 @@
-title = "Office Hour"
-print(title)
-
-message = "Office hour are from 9:00 am to 9:00 pm."
-print(message)
-
-portlandTime = 8
-newYorkTime = 3
-londontime = 5
-
-def portlandBranch():
-    if portlandTime == 1:
-        print("The Portland branch is closed")
-    elif portlandTime == 2:
-        print("The Portland branch is closed")
-    elif portlandTime == 3:
-        print("The Portland branch is closed")
-    elif portlandTime == 4:
-        print("The Portland branch is closed")
-    elif portlandTime == 5:
-        print("The Portland branch is closed")
-    elif portlandTime == 6:
-        print("The Portland branch is closed")
-    elif portlandTime == 7:
-        print("The Portland branch is closed")
-    elif portlandTime == 8:
-        print("The Portland branch is open")
-    elif portlandTime == 9:
-        print("The Portland branch is closed")
-    elif portlandTime == 10:
-        print("The Portland branch is closed")
-    elif portlandTime == 11:
-        print("The Portland branch is closed")
-    elif portlandTime == 12:
-        print("The Portland branch is closed")
-    else:
-        print("An error has occured")
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> title = "Office Hour"
+... print(title)
+... 
+... message = "Office hours are from 9:00 am to 9:00 pm."
+... print(message)
+... 
+... portlandTime = 8
+... newYorkTime = 3
+... londontime = 5
+... 
+... def portlandBranch():
+...     if portlandTime == 1:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 2:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 3:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 4:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 5:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 6:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 7:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 8:
+...         print("The Portland branch is open")
+...     elif portlandTime == 9:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 10:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 11:
+...         print("The Portland branch is closed")
+...     elif portlandTime == 12:
+...         print("The Portland branch is closed")
+...     else:
+...         print("An error has occured")
 
 def newYorkBranch():
     if newYorkTime == 1:
@@ -94,4 +96,3 @@ def londonBranch():
 
 portlandBranch()
 newYorkBranch()
-londonBranch()
