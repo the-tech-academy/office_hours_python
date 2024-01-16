@@ -1,7 +1,7 @@
 title = "Office Hour"
 print(title)
 
-message = "Office hour are from 9:00 am to 9:00 pm."
+message = "Office hours are from 9:00 am to 9:00 pm."
 print(message)
 
 portlandTime = 8
@@ -87,7 +87,7 @@ def londonBranch():
         print("The London branch is closed")
     elif londontime == 11:
         print("The London branch is closed")
-    elif londontimee == 12:
+    elif londontime == 12:
         print("The London branch is closed")        
     else:
         print("An error has occured")
