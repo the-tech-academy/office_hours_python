@@ -1,10 +1,11 @@
-https://github.com/the-tech-academy/office_hours_python.git<dl>
-  <dt>Project Name:</dt>
-  <dd>office_hours</dd>
+Project Title: Name of your project.
 
-  <dt>Project Description:</dt>
-  <dd>This is the final drill for the Version Control Course.</dd>
+Description: A short explanation of what the project is (e.g., “A responsive portfolio site built with HTML, CSS, and JavaScript”).
 
-  <dt>Project Intentions:</dt>
-  <dd>This drill will demonstrate how developers may remotely collaborate together to complete a project.</dd>
-</dl>
+Features: Highlight what the project demonstrates (e.g., “Responsive design, CSS animations, hover effects, flexbox/grid layouts”).
+
+How to Use: Steps to view or run the project (e.g., “Clone repo, open index.html in browser”).
+
+Technologies Used: HTML, CSS, JavaScript, etc.
+
+Screenshots (optional): Add images if you want to showcase.
